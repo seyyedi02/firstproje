@@ -1,0 +1,88 @@
+@font-face {
+  font-family: "myfont";
+  src: url("../font/Vazir-Medium.eot") format("eot"),
+    url("../font/Vazir-Medium.woff") format("woff"),
+    url("../font/Vazir-Medium.ttf") format("truetype");
+}
+:root {
+  font-size: 100%;
+}
+html {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  direction: rtl;
+  min-width: 1400px;
+  /* margin: 0; */
+  font-family: myfont, Tahoma, Geneva, Verdana, sans-serif;
+  /* font-size: 12px; */
+}
+#ptxt {
+  font-size: 24px;
+}
+p#txt {
+  font-size: 1em;
+  width: 70%;
+  margin: 0 auto 0 auto;
+  direction: ltr;
+  text-align: justify;
+  /* text-decoration-line: overline;
+  text-decoration-color: green;
+  text-decoration-style:dashed;
+  text-decoration-thickness:10px; */
+  /* text-decoration:overline green dashed 10px */
+  text-transform: capitalize;
+  text-indent: 50px;
+  letter-spacing: 5px;
+  word-spacing: 10px;
+  line-height: 1.5;
+}
+div.container {
+  max-width: 1400px;
+  background-color: #6a00ff4d;
+  margin-right: 10px;
+}
+div.container div.header-small {
+  background-color: rgb(60, 110, 153);
+  padding: 10px;
+}
+div.container ul.menu li {
+  list-style-type: none;
+}
+div.container ul.menu li a:link {
+  text-decoration: none;
+  color: #000;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+div.container ul.menu li {
+  display: inline-block;
+}
+div.container ul.menu li a:visited {
+  text-decoration: none;
+  color: #000;
+}
+div.container ul.menu li a:hover {
+  /* text-decoration: underline; */
+  background-color: yellow;
+}
+div.container ul.menu li a:active {
+  background-color: #ccc;
+}
+div.container ul.menu li a#aboutus {
+  /* display: none; */
+}
+div.container div.header-small div.right {
+  width: 800px;
+  /* background-color: yellow; */
+  display: inline-block;
+}
+div.container div.header-small div.left {
+  display: inline-block;
+  vertical-align: middle;
+  width: 550px;
+  text-align: left;
+  /* background-color: rgb(0, 255, 187); */
+}
